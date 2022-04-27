@@ -43,6 +43,7 @@
             this.btn_Greeting.TabIndex = 0;
             this.btn_Greeting.Text = "Welcome~";
             this.btn_Greeting.UseVisualStyleBackColor = false;
+            this.btn_Greeting.Click += new System.EventHandler(this.btn_Greeting_Click);
             // 
             // FormMain
             // 
